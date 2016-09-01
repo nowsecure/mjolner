@@ -1,0 +1,35 @@
+{
+  "name": "@viaforensics/mjolner",
+  "version": "1.0.0",
+  "description": "Cycript backend powered by Frida",
+  "main": "index.js",
+  "browserify": {
+    "transform": [
+      [
+        "babelify",
+        {
+          "presets": [
+            "es2015"
+          ]
+        }
+      ]
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/viaforensics/mjolner.git"
+  },
+  "keywords": [
+    "cycript",
+    "frida",
+    "instrumentation",
+    "dynamic"
+  ],
+  "bugs": {
+    "url": "https://github.com/viaforensics/mjolner/issues"
+  },
+  "homepage": "https://github.com/viaforensics/mjolner#readme",
+  "dependencies": {
+    "object-assign": "^4.1.0"
+  }
+}
