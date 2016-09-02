@@ -1,11 +1,11 @@
 # Mjølner
 
-Cycript backend powered by Frida.
+Cycript compatible runtime powered by Frida.
 
 ## Example
 
 ```js
-const mjolner = require('@viaforensics/mjolner');
+const mjolner = require('mjolner');
 
 mjolner.register();
 
