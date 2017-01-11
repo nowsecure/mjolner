@@ -1,6 +1,6 @@
 {
   "name": "mjolner",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "Cycript compatible runtime powered by Frida",
   "main": "index.js",
   "browserify": {
