@@ -1,5 +1,3 @@
-'use strict';
-
 const {toCYON} = require('./lib/cyon');
 const objc = require('./lib/objc');
 const types = require('./lib/types');
