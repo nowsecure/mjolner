@@ -8,31 +8,6 @@
     "/index.d.ts",
     "/lib/*.js"
   ],
-  "browserify": {
-    "transform": [
-      [
-        "babelify",
-        {
-          "presets": [
-            [
-              "@babel/preset-env",
-              {
-                "loose": true
-              }
-            ]
-          ],
-          "plugins": [
-            [
-              "@babel/plugin-transform-runtime",
-              {
-                "corejs": 2
-              }
-            ]
-          ]
-        }
-      ]
-    ]
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/nowsecure/mjolner.git"
@@ -49,11 +24,6 @@
   },
   "homepage": "https://github.com/nowsecure/mjolner#readme",
   "dependencies": {
-    "@babel/core": "^7.1.6",
-    "@babel/plugin-transform-runtime": "^7.1.0",
-    "@babel/preset-env": "^7.1.6",
-    "@babel/runtime-corejs2": "^7.1.5",
-    "babelify": "^10.0.0",
     "object-assign": "^4.1.1"
   }
 }
